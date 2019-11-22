@@ -1,0 +1,23 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1253"
+CID=bdb5d1f1
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4192256 SPARSE "Linux 64-bit (MYE007)-s001.vmdk"
+RW 4192256 SPARSE "Linux 64-bit (MYE007)-s002.vmdk"
+RW 4096 SPARSE "Linux 64-bit (MYE007)-s003.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "522"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "f506d3a36e9608a11a4e11bbbdb5d1f1"
+ddb.toolsVersion = "2147483647"
+ddb.uuid = "60 00 C2 9c c0 07 e5 1f-e4 8a 4c bf 52 85 5d 97"
+ddb.virtualHWVersion = "10"
