@@ -1,5 +1,5 @@
 # stack_buffer_overflow
-A stack buffer overflow example on VMware 
+A stack buffer overflow example on VMware (Debian Linux 64 bit Intel)
 
 CODE LANGUAGES:
 C, Perl
@@ -8,4 +8,4 @@ A high-level programming language, such as C, leaves the programmer responsible 
 
 A buffer overflow occurs when a program or process attempts to write more data to a fixed length block of memory (a buffer), than the buffer is allocated to hold. An attacker can cause the application to execute arbitrary code and take over the machine by sending carefully crafted input to an application.
 
-Stack buffer overflow is also known as stack smashing. If the affected program is running with special privileges, or accepts data from untrusted network hosts then the bug is a potential security vulnerability. This code is an example of it.
+Stack buffer overflow is also known as stack smashing. If the affected program is running with special privileges, or accepts data from untrusted network hosts then the bug is a potential security vulnerability. This project is an example of it.
